@@ -1,0 +1,359 @@
+/* override bootstrap styles */
+/* @import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext'); */
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+body {
+  padding-top:50px;
+  color:#646464;
+  background-color:white;
+}
+
+h1,h2,h3,.highlight,.navbar a,#masthead h4 {
+  font-family:"cambria";
+}
+
+footer {
+
+  margin-top:40px;
+  padding-top:40px;
+  padding-bottom:40px;
+  background-color:#cecece;
+ 
+}
+
+
+#masthead {
+  min-height:199px;
+  background-color:crimson;
+  color:#aaaacc;
+}
+
+#masthead h1 {
+  font-size: 55px;
+  line-height: 1;
+  color:#fefeff;
+  margin-top:50px;
+}
+
+#masthead .well {
+  margin-top:31px;
+  background-color:transparent;
+  border-color:transparent;
+  color:transparent;
+  min-height:127px;
+}
+
+#topPanel {
+  padding-top:0px;
+  padding-left:22px;
+  padding-right:22px;
+}
+#topPanel .panel-body {
+  padding-top:0px;
+}
+
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+.top-spacer {
+  background-color:white;
+  height:40px;
+}
+
+a,a:hover {
+  color:green;
+  text-decoration:none;
+}
+
+.icon-bar {
+  background-color:white;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+
+.navbar-bright {
+  background-color:blue;
+  color:#fff;
+  margin-bottom: 0;
+  border-width: 0;
+}
+
+.navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
+  color:#ccccdd;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing:.08em;
+}
+
+.navbar-bright li > a:hover {
+  background-color:#000044;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+#title{
+  font-family: cursive;
+  font-weight: bold;
+  color:maroon;
+  font-size:30px;
+}
+#read{
+  font-size:20px;
+  color:crimson;
+
+}
+ #read:hover{
+  color:blue;
+  background-color:yellow;
+}
+#back{
+  background-size :cover;
+  background-position:center ;
+
+}
+.caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+  border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:transparent;
+}
+
+.panel {
+  border-color:transparent;
+  border-radius:0;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+/* login page */
+#log{
+  background-color:transparent;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 5px 8px rgba(126,255,56,0); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 5px 8px rgba(126,255,56,0);
+  padding:20px 20px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+img{
+  width:150px;
+  margin-left:90px;
+  border-radius:50%;
+}
+h1{
+  font-size: 80px;
+  font-weight: 200;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:wheat;
+}
+h2{
+  color:red;
+  font-weight:bolder;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label{
+  font-size:18px;
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:bold;
+}
+#btn{
+  font-size:18px;
+  color:white;
+  background-color: rgb(19, 51, 231);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:bold;
+  
+}
+#btn:hover{
+background-color:crimson;
+}
+p{
+  font-size: 15px;
+  color:chartreuse;
+  font-weight:bolder;
+}
+a{
+  font-size: 20px;
+  color:darkblue;
+  font-weight: bolder;
+}
+#anc:hover{
+  background-color:turquoise;
+  color:red;
+}
+/* login page end */
+/* signup page */
+#signup{
+  background-size :cover;
+  background-position:center ;
+
+}
+.signupform{
+  font-family: sans-serif;
+  width:380px; 
+  background:transparent;
+  box-shadow: 0px 2px 5px 10px rgba(47,190,212,0.75);
+-webkit-box-shadow: 0px 2px 5px 10px rgba(47,190,212,0.75);
+-moz-box-shadow: 0px 2px 5px 10px rgba(47,190,212,0.75);
+  /* box-shadow:0 0 3px 0 teal; */
+  padding-bottom:150px;
+  margin:8% auto 0;
+  height:500px;
+  margin-top: 5px;
+  text-align: center;
+  
+}
+.signupform h2{
+  color:crimson;
+  margin-bottom: 30px;
+  font-size: 45px;
+}
+.input-box 
+{
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom:20px 0;
+  width:90%;
+  border: 1.5px solid crimson;
+  outline:none;
+
+}
+#pwd{
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom:20px 0;
+  width:90%;
+  border:1.5px solid crimson;
+  outline:none;
+  /* transition:all 0.3s; */
+}
+
+#cnpwd{
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom:20px 0;
+  width:90%;
+  border:1.75px solid crimson;
+  outline:none;
+  /* transition:all 0.3s; */
+}
+#pwd:focus
+{
+  border-color:#27a360;
+  box-shadow: inset 0 0 4px #2fd072;
+}
+.strength{
+
+  transition:1s;
+  /* border:1px solid #212121; */
+  /* padding :8px 10px; */
+  padding:10px; 
+  font-size:15px;
+  font-weight:bold;
+  text-transform:uppercase;
+  width:80%;
+  height:35px;
+  border-radius:10px;
+  margin-left:30px;
+  text-align:center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+#submits{
+  color:red;
+  width:80%;
+  padding:5px;
+  border-radius:10px;
+  font-size:15px;
+  margin:10px 0;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  background-color: yellow;
+
+}
+/* #submits a:hover{
+  text-decoration:none;
+  color:blue;
+} */
+/* signup ends */
+
+/* homepage */
+#home{
+  background-size :cover;
+  background-position:center ;
+
+}
+
+
+#lib{
+  color:yellow;
+  text-align: center;
+}
+.des{
+  text-align: justify;
+  padding:20px;
+  color:whitesmoke;
+}
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title> <%=title%> </title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	
+		<link href="/css/styles.css" rel="stylesheet">
+	</head>
+	<body background="https://www.elidoc.gr/sites/default/files/2020-05/old-book-library.jpg">
+    <!-- <header class="navbar navbar-bright navbar-fixed-top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+              <% for(i=0;i<nav.length;i++){%>
+    
+            <li>
+              <a href="<%=nav[i].link%>"><%=nav[i].name%></a>
+            </li>
+            <%}%>
+          </ul>
+        </header>  -->
+<div class="container-fluid">
+  
+  <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12"></div>
+    
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <h1> <B> WELCOME TO YOUR BOOK DESTINY</B></h1>
+      </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+        
+        <form id="log" method="POST" action="/login" onsubmit="return validate()"novalidate="novalidate"> 
+         
+           <h2>Please Log In here</h2><br>
+           <img class="img img-responsive" src="images/IPNp.gif">
+           
+          
+          <div class="form-group">
+            <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" name="email" id="email">
+                <label for="error" id="error"></label>
+              
+          </div>
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" id="password"><br>
+            <span id="message" style="color:red;"></span><br> 
+          </div>
+          
+          <button id="btn" type="submit" class="btn btn-warning btn-block">Log In</button><br>
+          <p>Don't have an account?<a id="anc" href="/signup">  Sign Up Here</a></p>
+        </form>
+      </div>
+         
+    </div>
+     
+</div>
+
+
+          
+          <!-- <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
+        
+          
+        </div>
+      </div>
+                                                                                       
+	                                                
+                                                      
+   	</div><!--/col-12-->
+  <!-- </div>
+</div>
+                                                
+                                                                                
+<hr>
+
+<div class="container" id="footer">
+  <div class="row">
+    <div class="col col-sm-12">
+      
+      <h1>Follow Us</h1>
+      <div class="btn-group">
+       <a class="btn btn-twitter btn-lg" href="#"><i class="icon-twitter icon-large"></i> Twitter</a>
+	   <a class="btn btn-facebook btn-lg" href="#"><i class="icon-facebook icon-large"></i> Facebook</a>
+	   <a class="btn btn-google-plus btn-lg" href="#"><i class="icon-google-plus icon-large"></i> Google+</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="list-inline">
+          <li><i class="icon-facebook icon-2x"></i></li>
+          <li><i class="icon-twitter icon-2x"></i></li>
+          <li><i class="icon-google-plus icon-2x"></i></li>
+          <li><i class="icon-pinterest icon-2x"></i></li>
+        </ul>
+        
+      </div>
+      <div class="col-sm-6">
+          <p class="pull-right">Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a></p>      
+      </div>
+    </div>
+  </div>
+</footer> --> 
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/login.js"></script>
+
+	</body>
+</html>

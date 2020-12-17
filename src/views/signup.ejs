@@ -1,0 +1,53 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <meta charset="utf-8">
+            <title> library </title>
+            <meta name="generator" content="Bootply" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <link href="/css/bootstrap.min.css" rel="stylesheet">
+            <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+           
+            <link href="/css/styles.css" rel="stylesheet">
+        </head>
+
+    
+        <body id="signup" background="https://image.shutterstock.com/image-photo/book-library-old-open-textbook-260nw-785109361.jpg">
+        
+    
+        <div class="signupform"> 
+            <br>
+        <h2><i>Sign Up Now</i></h2>
+          <br>
+          <!-- form validation -->
+          <form name="myform" method="POST" action="/signup/register" onsubmit="return validate()" >
+        
+            <input type="text" class= "input-box" name="name" placeholder=" Your Name"> <br><br>
+            <input id= "email" class= "input-box" name="email" placeholder=" Your Email"> <br><br>
+            <label for="error" id="error"></label>  -->
+            
+         
+         <input  id="pwd" autocomplete="none" name="password"  placeholder=" Your Password"  maxlength="15" > <br>
+       
+        <span id="message" style="color:red;"></span><br>
+        <input  id="cnpwd" autocomplete="none" type="text" name="cpassword" placeholder=" Confirm Password" maxlength="15" value=""><br>
+        <span id="cnmessage"></span><br> 
+        <p class="strength" id="length"></p>
+          
+            <button id="submits">Sign up</button>
+    
+            
+        </form>
+    
+        <script src="/js/signup.js"></script>
+            </div>
+       
+       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+       <script src="/js/bootstrap.min.js"></script>
+       
+
+    </body>
+    </html>
+</html>
